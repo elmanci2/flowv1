@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+
+   font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.imagenajustes{
+  width: 13rem;
+  overflow: hidden;
+}
+
+.imagenajustes img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: var(--color1);
+}
+
+
+
+
+
+/* todo conted  */
+
+
+
+
+.atras_segting{
+  width: 100%;
+  display: flex;
+justify-content: center;
+backdrop-filter: blur(10px);
+  background: rgb(255, 0, 64);
+  box-shadow: 0px 4px 33px 0px rgba(0, 0, 0, 0.075) ;
+  border-radius: 0px 0px 5rem 0rem ;
+  color: white;
+  height: 14rem;
+  overflow: hidden;
+
+}
+
+.atras_item{
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  margin-top: -2px;
+  margin-bottom: 7px;
+  overflow: hidden;
+
+}
+
+
+
+
+.el_logo{
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+
+
+
+/* ajustes  */
+
+.segting{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+
+.segting_item{
+
+  width: 90%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.user_item{
+    background-color: rgb(29, 29, 29);
+  margin: 10px ;
+  padding:1rem;
+  border-radius: 1rem;
+}
+
+.user_item:hover{
+  background: rgba(255, 0, 55, 0.897) ;
+  color: white;
+  backdrop-filter: blur(2px);
+}
+
+
+
+.item_tex{
+  display: flex;
+  align-items: center;
+  margin: 0px 1rem ;
+
+}
+
+
+
+
+
+
+.item_tex span{
+  margin-left: 2rem;
+  color: rgb(255, 255, 255) ;
+
+}
+
+
+.item_2{
+  color: var(--color1);
+  font-size: 1.9rem;
+}
+
+
+
+.item_2:hover{
+    color: rgba(255, 255, 255, 0.884);
+  }
+
+/*=============== BASE ===============*/
+
+
+
+
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+
+/*=============== MODAL ===============*/
+
+.modal__container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background:linear-gradient(rgba(255, 0, 55, 0.445) , rgb(58, 58, 58) );
+  backdrop-filter: blur(7px);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: flex-end;
+  overflow: hidden;
+  transition: all .3s;
+  z-index: 3;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal__content{
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 3rem 2rem 2rem;
+  border-radius: 1rem 1rem 0 0;
+  transition: all .3s;
+  transform: translateY(10%);
+  margin-bottom: 3rem;
+}
+
+
+.modal__close{
+  display: inline-flex;
+  background-color: var(--first-color);
+  border-radius: .25rem;
+  color: #FFF;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+/* Show modal */
+
+#name{
+    background-color: rgba(65, 64, 64, 0.404);
+    color: white;
+}
+
+.show-modal{
+  visibility: visible;
+  opacity: 1;
+}
+
+.show-modal .modal__content{
+
+  transform: translateY(0);
+
+ 
+}
+
+@media screen and (min-width: 576px){
+  .modal__content{
+    margin: auto;
+    width: 380px;
+    border-radius: 1.25rem;
+  }
+
+  .modal__img{
+    width: 170px;
+  }
+}
+
+/* formulario style */
+
+
+
+.inputBox{
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.inputBox input[type="text"], .inputBox input[type="email"]{
+  width: 100%;
+  height: 4rem;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 0px 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+
+.inputBox button{
+  margin: 10px 0px 0px 0px ;
+  width: 100%;    
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background:rgb(43, 42, 42);
+  border-radius: 18rem;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  backdrop-filter: blur(10px);
+  
+}
+
+.inputBox button:hover{
+  background: rgba(221, 7, 35, 0.568);
+  transition: all 0.3s ease;
+  color: white;
+}
+
+
+
+
+::placeholder{
+  font-size: 16px;
+  color: rgba(218, 218, 218, 0.952);
+}
+
+
+
+
+.alert{
+width: 100%;
+display: none;
+
+}
+
+.alert img{
+  width: 10rem;
+}
+.alert .recibido{
+  font-size: 1.6rem;
+  color: rgb(184, 184, 184);
+  font-weight: 400;
+}
+
+.alert .recibido span{
+  color: rgb(6, 146, 48);
+}
+
+.close-modal{
+  font-size: 1.4rem;
+  background:rgb(43, 42, 42);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 9px;
+  margin-top: 10px;
+}
+
+.for_title{
+  color: rgba(255, 0, 55, 0.808);
+  
+}
+.form_text{
+  padding: 0px 1rem;
+  color: rgb(133, 130, 130);
+}
+
+
+.modal__content{
+  box-shadow: 0px 0px 33px 0px  rgba(34, 34, 34, 0.151);
+  overflow: hidden;
+}
+
+
+
+
+.atras_segting h3{
+    font-size: 2rem;
+   text-transform: uppercase;
+}

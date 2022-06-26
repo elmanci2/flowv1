@@ -1,0 +1,138 @@
+:root {
+    --color_imput: rgba(90, 90, 90, 0.445);
+    --color_2: rgb(255, 0, 64);
+}
+
+
+.container_error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.sub_conted_error {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container_error .ifo_error {
+    width: 100%;
+    display: flex;
+    height: 15rem;
+    overflow: hidden;
+    background-color: rgb(56, 56, 56);
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border-radius: 0px 0px 1rem 1rem;
+}
+
+.error_img {
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 11rem;
+}
+
+.error_img img {
+    width: 100%;
+}
+
+
+.tex_error_conted {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tex_error_conted h1 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tex_error_conted h3 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.formulario {
+    width: 100%;
+    height: 100%;
+}
+
+.formularioFuncional {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.formulario_tex {
+    text-transform: uppercase;
+    color: var(--color_2);
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+
+.formcontainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tex_ares{
+    padding: 1rem;
+}
+
+
+.form-control {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: var(--color_imput);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+}
+
+.inputformulario {
+    padding: 16px;
+
+}
+
+.form-control::placeholder {
+    margin-left: 1rem;
+    color: rgba(240, 248, 255, 0.61);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#subminForm {
+    padding:  10px 1rem;
+    width: 12rem;
+    border-radius: 10px;
+    background: var(--color_2);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.2rem;
+
+
+}
+
+
+.sudmit_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

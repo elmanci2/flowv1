@@ -1,0 +1,248 @@
+:root {
+    --coolor_blanco: rgb(255, 255, 255);
+    --color_blanco2:rgba(255, 255, 255, 0.747);
+    --color_gris:rgb(92, 91, 91);
+    --color_rojo:red ;
+}
+.contenedor{
+    margin-bottom: 4rem;
+}
+.banner {
+    width: 100%;
+    height: 66vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.banner .imagen {
+    width: 100%;
+    object-fit: cover;
+    position: inherit;
+    z-index: -3;
+    height: 100%;
+}
+
+.banner .imagen img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.sombra {
+    width: 100%;
+    height: 15rem;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+        linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+}
+
+
+
+.lista {
+    width: 90%;
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    bottom: 0;
+    margin-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin-left: 1rem;
+}
+
+
+.lis_centro {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.lista ul {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    list-style-type: disc;
+
+}
+
+.lista ul li {
+    color: var(--color_rojo);
+
+}
+
+
+.lista span {
+    color: var(--coolor_blanco);
+}
+
+.play_conted {
+    color: black;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    bottom: 0;
+    margin-bottom: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.play_conted .play {
+    background-color: var(--coolor_blanco);
+    padding: 4px 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.play_conted .play i {
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
+.play a{
+    color: black;
+}
+.play_conted .extra {
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.extra i {
+    font-size: 1.6rem;
+
+}
+
+.tex_extra {
+    color: var(--color_blanco2);
+    font-size: 0.7rem;
+}
+
+.title{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+
+}
+
+.eltilte{
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 7rem;
+    height: 8rem;
+    overflow: hidden;
+}
+
+.eltilte img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+/* menu stiki */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+
+.menu_pegajoso{
+    width: 100%;
+    height: 8rem;
+   background: linear-gradient(rgba(0, 0, 0, 0.589) , rgba(0, 0, 0, 0) );
+   position: fixed;
+   z-index: 10;
+   top: 0;
+   animation: stiki1 0.5s;
+
+}
+
+.pejajoso_conted{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.menupejajosolist{
+    list-style: none;
+    display: flex;
+    width: 88%;  
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;  
+    
+}
+
+.menupejajosolist li{
+    font-weight:400;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 2px 13px #000000cb;
+    color: white;
+  
+}
+
+.stiki{
+    backdrop-filter: blur(1px);
+    margin-top: 0 !important;
+    background: rgba(0, 0, 0, 0.61);
+    height: 3.5rem !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    animation: stiki 0.5s;
+    height: -4rem;
+}
+
+
+@keyframes stiki{
+    from {
+      padding-bottom: 0px;
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      padding-bottom: 4px;
+    }
+  }
+
+  @keyframes stiki1{
+    from {
+      padding-top: 0px;
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      padding-top:1px;
+    }
+  }
+
+
+
+

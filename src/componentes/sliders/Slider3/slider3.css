@@ -1,0 +1,53 @@
+
+.slider_streno_conted{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.swiper-container {
+  width: 100%;
+  margin-left: -6rem !important;
+  margin-bottom: 2rem;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 65% !important;
+  box-shadow: 14px 3px 23px 0px rgba(0, 0, 0, 0.096);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.picture {
+  width: 100%;
+}
+
+.picture img{
+
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+
+}
+
+.detail{
+  position: absolute;
+}
+
+
+.swiper-pagination ,.swiper-pagination-bullets ,.swiper-pagination-horizontal{
+  display: none ;
+}
+
+.swiper-scrollbar{
+  opacity: 0;
+}

@@ -1,0 +1,39 @@
+
+/* sluider
+ */
+
+
+ .padres_mini_slider{
+    width: 100%;
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: auto;
+    margin-bottom: 1rem;
+
+  
+  }
+  
+  .padres_mini_slider::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .mini_slider_conted{
+     display: block;
+     white-space: nowrap;
+     
+   
+  }
+  
+  .mini_slider_conted a{
+   display: inline-block;
+  margin-left: 0.4rem;
+  
+  }
+  
+  .mini_slider_conted a img{
+   border-radius: 5px;
+   width: 6.6rem;
+   box-shadow: 5px 4px 9px 0px #0000002d;
+  }
+  

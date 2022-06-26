@@ -1,0 +1,130 @@
+:root {
+    --color_gris: #1a1918;
+    --color_blano: rgba(226, 225, 225, 0.712);
+    --heg_search: 2.65rem;
+    --color_blano2: #e0dedc;
+}
+
+
+.fixed_buscar {
+    width: 100%;
+    height: 4rem;
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    top: 0;
+}
+
+.buscar_container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    color: #1a1918;
+    height: 2.67rem;
+    background-color:#1a1918;
+
+
+}
+
+#buscador {
+    width: 85%;
+    height: var(--heg_search);
+    background-color: #1a1918;
+    color: var(--color_blano);
+    font-size: 1rem;
+    border: none;
+    position: fixed;
+    right: 0;
+    color: rgb(255, 255, 255);
+}
+
+#buscador::placeholder {
+    color: var(--color_blano);
+
+    text-transform: capitalize;
+}
+
+#buscador {
+    outline: none;
+}
+
+.bx-search {
+    font-size: 1.4rem;
+    color: var(--color_blano);
+    position: inherit;
+    z-index: 2;
+    padding-left: 1rem;
+}
+
+.tex_layout {
+    margin: 1.4rem 7px;
+}
+
+
+
+/* buscar novela gris  */
+
+
+/* buscar grid  */
+
+.sentrado_grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5rem;
+
+}
+
+.grid_lyaut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 7px;
+    margin-bottom: 5rem;
+}
+
+.grid div {
+    width: 7rem;
+    height: 5rem;
+    margin-bottom: 5.5rem;
+    border-radius: 7px !important;
+}
+
+
+.grid a {
+    width: 10rem;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+
+.novela_conted img {
+    width: 100%;
+
+    object-fit: contain;
+
+}
+
+
+
+
+.title_novel  {
+    display: none;
+}
+
+/* ocultar elementos  */
+
+.filtro {
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+    transition: all 0.5s;
+}

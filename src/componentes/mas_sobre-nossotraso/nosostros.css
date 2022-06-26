@@ -1,0 +1,25 @@
+
+
+.nosotros_container{
+    justify-content: center;
+    display: grid;
+    position: absolute;
+    width: 90%;
+    margin: 50%;
+  
+
+}
+
+.__conted__nosotros{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+position: relative;
+}
+
+.nosotros_container h1{
+    color: var(--color_rojo);
+    font-size: 1.5rem;
+}
+

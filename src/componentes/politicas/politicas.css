@@ -1,0 +1,42 @@
+
+
+
+
+.texpoliticaconted{
+    width: 100%;
+    position: fixed;
+    background: rgb(0, 0, 0);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color_2);
+    margin-bottom: 10rem;
+}
+
+.texpoliticaconted h2{
+    text-align: center;
+
+}
+
+.parrafocontedpolitica{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+  
+}
+
+.politicas_parrafo{
+    text-align: left;
+    padding: 4rem 1rem 4rem 1rem ;
+    font-size: 1.25rem;
+}
+
+.politicas_parrafo span {
+    color: var(--color_2);
+    
+}
+
+
+
+
