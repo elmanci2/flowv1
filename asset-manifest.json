@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/velanovelas_V1.github.io/static/css/main.1113660a.css",
+    "main.js": "/velanovelas_V1.github.io/static/js/main.7427539c.js",
+    "static/js/787.7a24e4f3.chunk.js": "/velanovelas_V1.github.io/static/js/787.7a24e4f3.chunk.js",
+    "static/media/error.png": "/velanovelas_V1.github.io/static/media/error.d04f13734bfa408912d9.png",
+    "static/media/ajustesimg.png": "/velanovelas_V1.github.io/static/media/ajustesimg.f64dfff67752e1a7bcd8.png",
+    "static/media/palomitas.png": "/velanovelas_V1.github.io/static/media/palomitas.e4e611ffa02f06b85a16.png",
+    "index.html": "/velanovelas_V1.github.io/index.html",
+    "main.1113660a.css.map": "/velanovelas_V1.github.io/static/css/main.1113660a.css.map",
+    "main.7427539c.js.map": "/velanovelas_V1.github.io/static/js/main.7427539c.js.map",
+    "787.7a24e4f3.chunk.js.map": "/velanovelas_V1.github.io/static/js/787.7a24e4f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1113660a.css",
+    "static/js/main.7427539c.js"
+  ]
+}
